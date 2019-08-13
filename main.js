@@ -51,7 +51,7 @@ flipLight = () => {
         button.style.backgroundImage = "url('./off.PNG')"
         lightDown();
     } else {
-        button.style.backgroundImage = "url('./on.PNG')"
+        button.style.backgroundImage = "url('./on.png')"
         lightUp();
     }
 }
