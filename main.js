@@ -48,10 +48,10 @@ setTimeout(() => {
 flipLight = () => {
     let button = document.getElementById('button');
     if (power) {
-        button.style.backgroundImage = "url('./off.png')"
+        button.style.backgroundImage = "url('./off.PNG')"
         lightDown();
     } else {
-        button.style.backgroundImage = "url('./on.png')"
+        button.style.backgroundImage = "url('./on.PNG')"
         lightUp();
     }
 }
@@ -78,7 +78,7 @@ reset = () => {
     Array.from(document.getElementsByClassName('hole')).forEach((hole) => {
         hole.style.backgroundColor = '';
     });
-    button.style.backgroundImage = "url('./off.png')"
+    button.style.backgroundImage = "url('./off.PNG')"
     lightDown();
     power = false;
 }

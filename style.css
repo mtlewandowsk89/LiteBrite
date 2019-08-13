@@ -55,7 +55,7 @@ body {
 
 #button {
     cursor: pointer;
-    background-image: url('./off.png');
+    background-image: url('./off.PNG');
     background-size: cover;
     height: 100px;
     width: 70px;
