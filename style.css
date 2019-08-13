@@ -1,0 +1,74 @@
+body {
+    display: grid;
+    background-color: #000;
+}
+
+#board {
+    place-self: center;
+    background-color: #000;
+    grid-template-columns: repeat(auto-fill, minmax(10px, 1fr));
+    padding: 5px;
+    width: 1000px;
+    display: grid;
+    grid-gap: 5px;
+}
+
+.inputSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-self: center;
+    width: 1000px;
+}
+
+.hole {
+    background-color: rgb(58, 58, 58);
+    box-sizing: border-box;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.selectSection {
+    place-self: center;
+    width: 530px;
+}
+
+.selectSection h3 {
+    text-align: center;
+    color: #fff;
+}
+
+#colors {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
+    grid-gap: 5px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#button {
+    cursor: pointer;
+    background-image: url('./off.png');
+    background-size: cover;
+    height: 100px;
+    width: 70px;
+    align-self: center;
+}
+
+#reset {
+    cursor: pointer;
+    color: red;
+    place-self: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 24px;
+    border: 2px solid red;
+    border-radius: 25px;
+}
